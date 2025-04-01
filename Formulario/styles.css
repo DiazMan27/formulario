@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centrar verticalmente */
+    flex-direction: column;
+    background-color: beige;
+}
+h2 {
+    height: 150px;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    cursor: move; /* Cambia el cursor para indicar que el formulario se puede mover */
+}
+
+
+button {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255); 
+    border-color: blue;
+    transform: scale(1.05); 
+}
+
+.movable-form {
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    cursor: move; /* Cambia el cursor para indicar que el formulario se puede mover */
+}
